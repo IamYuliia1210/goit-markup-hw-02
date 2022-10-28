@@ -5,27 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студія</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <!--навигация-->
-      <nav>
-        <a href="/index.html" class="nav-link" lang="en"><span>Web</span>Studio</a>
-        <ul>
-          <li><a href="/index.html">Студія</a></li>
-          <li><a href="/portfolio.html">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+      <nav class="nav">
+        <a class="nav-logo" href="/index.html" lang="en">
+          <span class="logo">Web</span>Studio</a
+        >
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Студія</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/portfolio.html">Портфоліо</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Контакти</a></li>
         </ul>
       </nav>
 
       <!--контакты-->
-      <ul>
-        <li><a href="maito:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel.:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="contacts">
+        <li class="contact-item">
+          <a class="contact-link" href="maito:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="contact-item">
+          <a class="contact-link" href="tel.:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
 
-    <!--шапка (исправить заголоски и сделать классы)-->
+    <!--шапка-->
     <main>
       <section>
         <h1>Ефективні рішення для вашого бізнесу</h1>
@@ -40,19 +61,30 @@
         <ul>
           <li>
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+            <p>
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
+            </p>
           </li>
           <li>
             <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+            <p>
+              Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
+            </p>
           </li>
           <li>
             <h3>ПЛАНУВАННЯ</h3>
-            <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+            <p>
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
           </li>
           <li>
             <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+            <p>
+              Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.
+            </p>
           </li>
         </ul>
       </section>
@@ -67,7 +99,11 @@
             <img src="./images/box2.jpg" alt="мобільні додатки" width="370" />
           </li>
           <li>
-            <img src="./images/box3.jpg" alt="дизайнерські рішення" width="370" />
+            <img
+              src="./images/box3.jpg"
+              alt="дизайнерські рішення"
+              width="370"
+            />
           </li>
         </ul>
       </section>
@@ -78,22 +114,38 @@
 
         <ul>
           <li>
-            <img src="./images/team_member/Ihor.jpg" alt="фото Ігора Дем'яненко" width="270" />
+            <img
+              src="./images/team_member/Ihor.jpg"
+              alt="фото Ігора Дем'яненко"
+              width="270"
+            />
             <h3>Ігор Дем'яненко</h3>
             <p lang="en">Product Designer</p>
           </li>
           <li>
-            <img src="./images/team_member/Olha.jpg" alt="фото Ольги Рєпіної" width="270" />
+            <img
+              src="./images/team_member/Olha.jpg"
+              alt="фото Ольги Рєпіної"
+              width="270"
+            />
             <h3>Ольга Рєпіна</h3>
             <p lang="en">Frontend Developer</p>
           </li>
           <li>
-            <img src="./images/team_member/Mikola.jpg" alt="фото Миколи Тарасова" width="270" />
+            <img
+              src="./images/team_member/Mikola.jpg"
+              alt="фото Миколи Тарасова"
+              width="270"
+            />
             <h3>Микола Тарасов</h3>
             <p lang="en">Marketing</p>
           </li>
           <li>
-            <img src="./images/team_member/Michael.jpg" alt="фото Михайло Єрмакова" width="270" />
+            <img
+              src="./images/team_member/Michael.jpg"
+              alt="фото Михайло Єрмакова"
+              width="270"
+            />
             <h3>Михайло Єрмаков</h3>
             <p lang="en">UI Designer</p>
           </li>
@@ -103,11 +155,16 @@
 
     <!--Футер-->
     <footer>
-      <a href="/index.html" class="nav-link" lang="en"><span>Web</span>Studio</a>
+      <a href="/index.html" class="nav-link" lang="en"
+        ><span>Web</span>Studio</a
+      >
       <address>
         <ul>
           <li>
-            <a href="https://goo.gl/maps/32chpTAH5WMxKWA97" target="_blank" class="map"
+            <a
+              href="https://goo.gl/maps/32chpTAH5WMxKWA97"
+              target="_blank"
+              class="map"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>

@@ -1,0 +1,66 @@
+:root{
+    --primary-text-color: #212121;
+    --text-color: #757575;
+    --highlight-сolor: #2196F3;
+    --background-color: #FFFFFF;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:var(--background-color)
+}
+/*header navigation*/
+.nav-logo{
+    text-decoration: none;
+}
+.nav-logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,1923;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.nav-logo:hover, 
+.nav-logo:focus{
+    color: var(--highlight-сolor);
+}
+.logo{
+    color:var(--highlight-сolor);
+}
+.nav-list{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,1428;
+    letter-spacing: 0.02em;
+    color:var(--primary-text-color);
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--highlight-сolor);
+}
+
+/*contacts*/
+.contacts {
+    list-style: none;
+}
+
+
+.contact-link {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,1428;
+    letter-spacing: 0.02em;
+    color:var(--text-color);
+}
+.contact-link:hover, :focus{
+    color:var(--highlight-сolor);
+}
