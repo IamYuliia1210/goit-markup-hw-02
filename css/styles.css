@@ -21,7 +21,7 @@
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,1923;
+    line-height: 1.1923;
     letter-spacing: 0.03em;
     color: #000000;
 }
@@ -37,10 +37,9 @@
 }
 .header-nav-link{
     text-decoration: none;
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,1428;
+    line-height: 1.1428;
     letter-spacing: 0.02em;
     color:var(--primary-text-color);
 }
@@ -55,10 +54,9 @@
 }
 .header-contact-link {
     text-decoration: none;
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,1428;
+    line-height: 1.1428;
     letter-spacing: 0.02em;
     color:var(--text-color);
 }
@@ -78,7 +76,7 @@
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,3636;
+    line-height: 1.3636;
     color: #FFFFFF;
     text-align: center;
     letter-spacing: 0.06em;
@@ -86,11 +84,9 @@
 }
 
 .hero-button {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,875;
+    line-height: 1.875;
 
     display: flex;
     align-items: center;
@@ -111,9 +107,8 @@
 .features-title,
 .work-title,
 .team-title{
-    font-weight: 700;
     font-size: 36px;
-    line-height: 1,1666;
+    line-height: 1.1666;
     letter-spacing: 0.03em;
     color:var(--primary-text-color)
 }
@@ -125,18 +120,15 @@
 }
 
 .feature-list-title {
-    font-weight: 700;
     font-size: 14px;
-    line-height: 1,1428;
+    line-height: 1.1428;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--primary-text-color)
 }
 .feature-list-text{
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1,7142;
+    line-height: 1.7142;
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
@@ -147,7 +139,7 @@
 .team-list-title{
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,1875;
+    line-height: 1.1875;
 
     text-align:center;
     letter-spacing: 0.03em;
@@ -155,8 +147,6 @@
     color: var(--primary-text-color);
 }
 .team-list-text{
-
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     
@@ -179,7 +169,7 @@ background:var(--second-background-color);
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1, 1923;
+    line-height: 1.1923;
     letter-spacing: 0.03em;
     color:var(--background-color);
     text-decoration: none;
@@ -193,11 +183,10 @@ background:var(--second-background-color);
     text-decoration: none;
 }
 .address-link{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,7142;
+    line-height: 1.7142;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--background-color);
@@ -212,13 +201,10 @@ background:var(--second-background-color);
 
 
 /*portfolio*/
-.filters-list,
 .portfolio-list{
     list-style: none;
 }
-.filter-button{
-    font-family: 'Roboto';
-    font-style: normal;
+.portfolio-button{
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -230,8 +216,8 @@ background:var(--second-background-color);
     cursor: pointer;
     
 }
-.filter-button:hover,
-.filter-button:focus{
+.portfolio-button:hover,
+.portfolio-button:focus{
     color: var(--background-color);
     background:var(--highlight-сolor)
 }
@@ -244,20 +230,14 @@ background:var(--second-background-color);
     text-decoration: none;
 }
 .portfolio-title{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color:var(--primary-text-color);
 }
 .portfolio-text{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1,875;
+    line-height: 1.875;
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
